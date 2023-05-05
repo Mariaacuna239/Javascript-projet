@@ -1,10 +1,17 @@
 // Assignment Code
-var generateBtn = document.querySelector(generate);
+var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("0123456789abcdefghij");
+  
+  var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+"; // characters to take for the password
+  var length = 10; //length of the password
+  var password = "";
+  for (var i = 0; i < length; i++) {
+    password += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  
+  var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 
