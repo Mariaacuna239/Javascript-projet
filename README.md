@@ -16,4 +16,4 @@ JavaScript plays a critical role in the purpose of this website. It advices the 
 ## Website
 URL is provided to view website! Thank You!
 
-![Alt text](screenshot%20project.png) src=https://mariaacuna239.github.io/Javascript-projet/
+![Alt text](screenshot%20project.png)](https://mariaacuna239.github.io/Javascript-projet/)
